@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"target": "es2015",
+		"module": "es2015",
+		"lib": [
+			"es2015"
+		],
+		"moduleResolution": "node",
+		"jsx": "react",
+		"outDir": "build",
+		"rootDir": "src",
+		"allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "experimentalDecorators": true,
+		"preserveConstEnums": true,
+		"allowJs": true,
+		"sourceMap": true,
+        "types": [
+          "react",
+          "react-native"
+        ],
+        "skipLibCheck": true
+	},
+	"exclude": [
+		"index.js",
+		"build",
+        "node_modules",
+        "__test__"
+	],
+	"compileOnSave": false
+}
